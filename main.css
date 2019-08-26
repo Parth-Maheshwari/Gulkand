@@ -1,0 +1,15 @@
+@media screen and (max-width: 400px){
+	body{
+		font-style: font-family: Palatino, 'Palatino Linotype', serif;
+		font-size: 20px;
+		position: top fixed;
+		text-align: center;
+		background-color: white;
+		color: #e90eed;
+	}
+	header{
+		background-color: #e90eed;
+		color: white;
+		margin-top: 0;
+	}
+}
