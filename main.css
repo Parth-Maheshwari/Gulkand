@@ -1,15 +1,87 @@
 @media screen and (max-width: 400px){
 	body{
 		font-style: font-family: Palatino, 'Palatino Linotype', serif;
-		font-size: 20px;
+		font-size: 15px;
 		position: top fixed;
-		text-align: center;
+		text-align: justify;
 		background-color: white;
-		color: #e90eed;
+		color: black;
+		text-decoration: none;
+		padding-left: 20px;
+		padding-right: 20px; 
+	}
+
+	a{
+		text-decoration: none;
 	}
 	header{
 		background-color: #e90eed;
 		color: white;
 		margin-top: 0;
+		text-align: center;
+		font-size: 25px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	body nav ul{
+		list-style: none;
+		text-align: center;
+		padding: 0;
+		font-size: 20px;
+	}
+
+	table.rateTable {
+		border: 2px solid #A40808;
+		background-color: #EEE7DB;
+		width: 100%;
+		text-align: center;
+		border-collapse: collapse;
+	}
+	table.rateTable td, table.rateTable th {
+		border: 1px solid #AAAAAA;
+		padding: 3px 2px;
+	}
+	table.rateTable tbody td {
+		font-size: 13px;
+	}
+	table.rateTable tr:nth-child(even) {
+		background: #F5C8BF;
+	}
+	table.rateTable thead {
+		background: #A40808;
+	}
+	table.rateTable thead th {
+		font-size: 19px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-align: center;
+		border-left: 2px solid #A40808;
+	}
+	table.rateTable thead th:first-child {
+		border-left: none;
+	}
+
+	table.rateTable tfoot td {
+		font-size: 13px;
+	}
+	table.rateTable tfoot .links {
+		text-align: right;
+	}
+	table.rateTable tfoot .links a{
+		display: inline-block;
+		background: #FFFFFF;
+		color: #A40808;
+		padding: 2px 8px;
+		border-radius: 5px;
+	}
+
+	
+	.home{
+		
+	}
+
+	.ingredients{
+
 	}
 }
